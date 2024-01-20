@@ -7,5 +7,5 @@ function calcular(){
     e= a * b
     f= a / b
     g= a % b
-    alert ("El primer numero es: " + a + "\nEl segundo numero es:" + b + "\nLa suma es: " + c + "\nLa resta es: " + d + "\nEl producto es: " + e + "\nLa division es: " + f + "\nEl resto es: " + b  );
+    alert ("El primer numero es: " + a + "\nEl segundo numero es:" + b + "\nLa suma es: " + c + "\nLa resta es: " + d + "\nEl producto es: " + e + "\nLa division es: " + f + "\nEl resto es: " + g  );
 }

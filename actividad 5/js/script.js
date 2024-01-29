@@ -7,5 +7,5 @@ function calcular(){
     e= A * B;
     f= A / B;
     g= A % B;
-    document.getElementById ("mensaje").innerHTML= "El primer numero es: " + A + "\nEl segundo numero es:" + B + "\nLa suma es: " + c + "\nLa resta es: " + d + "\nEl producto es: " + e + "\nLa division es: " + f + "\nEl resto es: " + g  ;
+    document.getElementById ("mensaje").innerHTML= "El primer numero es: " + A + <br>"El segundo numero es:" + B + <br> "\nLa suma es: " + c + <br> "\nLa resta es: " + d + <br> "\nEl producto es: " + e + <br> "\nLa division es: " + f + <br> "\nEl resto es: " + g  ;
 }

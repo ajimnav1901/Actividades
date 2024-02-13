@@ -10,5 +10,10 @@ function comprobar() { let nota;
         document.getElementById ("mensaje").innerHTML="Suspenso";
     if (nota >= 9 && nota <= 10)
         document.getElementById ("mensaje").innerHTML="Sobresaliente";
+    if (nota < 0)
+         document.getElementById ("mensaje").innerHTML="No es valida";
+    if (nota > 10 )
+         document.getElementById ("mensaje").innerHTML="No es valida";
+        
 }
     
